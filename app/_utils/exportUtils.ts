@@ -18,6 +18,9 @@ export function buildReactCode(state: TimePickerState) {
   return `import * as React from "react";
 
 const state = ${JSON.stringify(state, null, 2)};
+function resolveFont(s) { return s.fontBucket === "google" ? '"' + s.googleFontFamily + '", sans-serif' : "inherit"; }
+function buildShadow(s) { if (!s.shadowEnabled) return "none"; var hex = Math.round(s.shadowOpacity * 255).toString(16).padStart(2, "0"); return s.shadowX + "px " + s.shadowY + "px " + s.shadowBlur + "px " + s.shadowSpread + "px " + s.shadowColor + hex; }
+
 
 function normalizeTimeValue(value, showSeconds) {
   if (!value) return "";
@@ -56,14 +59,14 @@ export default function TimePickerComponent() {
         alignContent: "center",
         gap: state.gap,
         borderRadius: state.radius,
-        border: \`\${state.borderWidth}px solid \${invalid ? "#fb7185" : state.previewState === "focus" ? state.accent : state.border}\`,
+        border: \`\${state.borderWidth}px ${state.borderStyle} \${invalid ? state.errorColor : state.previewState === "focus" ? state.accent : state.border}\`,
         boxShadow: \`0 \${Math.round(state.shadow / 3)}px \${state.shadow}px rgba(0,0,0,.28)\`,
         background: state.background,
         color: state.foreground,
-        fontFamily: state.fontFamily,
+        fontFamily: resolveFont(state),
         opacity: disabled ? 0.55 : 1,
         outline: state.previewState === "focus" ? \`\${state.focusRing}px solid \${state.accent}\` : "none",
-        transition: state.transitionDuration > 0 ? "$1" : "none",
+        transition: state.transitionDuration > 0 ? "all " + state.transitionDuration + "ms " + state.transitionEasing : "none",
       }}
     >
       <label htmlFor={state.id} style={{ fontSize: state.labelSize, fontWeight: state.fontWeight }}>
@@ -76,7 +79,7 @@ export default function TimePickerComponent() {
           alignItems: "center",
           gap: 8,
           borderRadius: 16,
-          border: \`1px solid \${invalid ? "#fb7185" : state.border}\`,
+          border: \`1px solid \${invalid ? state.errorColor : state.border}\`,
           padding: "8px 12px",
           background: "rgba(255,255,255,.06)",
         }}
@@ -119,7 +122,7 @@ export default function TimePickerComponent() {
         ) : null}
       </div>
       {state.showTimezone ? <span id={timezoneId} style={{ color: state.muted, fontSize: 12 }}>{state.timezoneLabel}</span> : null}
-      <small id={helpId} style={{ color: invalid ? "#fb7185" : success ? "#22c55e" : state.muted }}>
+      <small id={helpId} style={{ color: invalid ? state.errorColor : success ? state.successColor : state.muted }}>
         {message}
       </small>
     </div>

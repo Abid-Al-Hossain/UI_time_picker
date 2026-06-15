@@ -32,9 +32,9 @@ function shellStyle(state: TimePickerState): CSSProperties {
     padding: state.padding,
     gap: state.gap,
     borderRadius: buildRadius(state),
-    border: `${state.borderWidth}px solid ${invalid ? "#fb7185" : state.previewState === "focus" ? state.accent : state.border}`,
+    border: `${state.borderWidth}px solid ${invalid ? state.errorColor : state.previewState === "focus" ? state.accent : state.border}`,
     boxShadow: buildShadow(state),
-    background: state.background,
+    background: state.disabled && state.disabledUseCustomColors ? state.disabledBg : state.background,
     color: state.foreground,
     fontFamily: resolveFont(state),
     fontStyle: state.fontStyle,
@@ -81,7 +81,7 @@ export default function LivePreview({ state }: { state: TimePickerState }) {
         {state.label}{state.required ? " *" : ""}
       </label>
       {state.description ? <p className="text-sm" style={{ color: state.muted }}>{state.description}</p> : null}
-      <div className="flex items-center gap-2 rounded-2xl border px-3 py-2" style={{ borderColor: invalid ? "#fb7185" : state.border, background: "rgba(255,255,255,.06)" }}>
+      <div className="flex items-center gap-2 rounded-2xl border px-3 py-2" style={{ borderColor: invalid ? state.errorColor : state.border, background: "rgba(255,255,255,.06)" }}>
         <input
           id={state.id}
           name={state.name}
@@ -113,7 +113,7 @@ export default function LivePreview({ state }: { state: TimePickerState }) {
         ) : null}
       </div>
       {state.showTimezone ? <span id={timezoneId} className="text-xs" style={{ color: state.muted }}>{state.timezoneLabel}</span> : null}
-      <small id={helpId} style={{ color: invalid ? "#fb7185" : success ? "#22c55e" : state.muted }}>{message}</small>
+      <small id={helpId} style={{ color: invalid ? state.errorColor : success ? state.successColor : state.muted }}>{message}</small>
     </div>
   );
 }

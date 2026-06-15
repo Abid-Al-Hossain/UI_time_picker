@@ -75,6 +75,14 @@ export const DEFAULT_TIMEPICKER_STATE: TimePickerState = {
   "showClearAction": true,
   "required": true,
   "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
+  "errorColor": "#ef4444",
+  "successColor": "#22c55e",
   "readOnly": false,
   "invalid": false
 };
@@ -136,6 +144,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -196,6 +210,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -256,6 +276,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -316,6 +342,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -376,6 +408,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -436,6 +474,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -496,6 +540,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -556,6 +606,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -616,6 +672,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -676,6 +738,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -736,6 +804,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -796,6 +870,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -856,6 +936,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -916,6 +1002,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -976,6 +1068,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1036,6 +1134,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1096,6 +1200,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1156,6 +1266,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1216,6 +1332,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1276,6 +1398,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1336,6 +1464,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1396,6 +1530,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1456,6 +1596,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1516,6 +1662,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1576,6 +1728,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1636,6 +1794,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1696,6 +1860,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1756,6 +1926,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1816,6 +1992,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1876,6 +2058,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1936,6 +2124,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -1996,6 +2190,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2056,6 +2256,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2116,6 +2322,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2176,6 +2388,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2236,6 +2454,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2296,6 +2520,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2356,6 +2586,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2416,6 +2652,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2476,6 +2718,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2536,6 +2784,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2596,6 +2850,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2656,6 +2916,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2716,6 +2982,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2776,6 +3048,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2836,6 +3114,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2896,6 +3180,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
@@ -2956,6 +3246,12 @@ export const TIMEPICKER_PRESETS: StudioPreset[] = [
       "showClearAction": true,
       "required": true,
       "disabled": false,
+  "disabledOpacity": 0.5,
+  "disabledCursor": "not-allowed",
+  "disabledUseCustomColors": false,
+  "disabledBg": "#374151",
+  "disabledText": "#9ca3af",
+  "disabledBorder": "#4b5563",
       "readOnly": false,
       "invalid": false
     }
