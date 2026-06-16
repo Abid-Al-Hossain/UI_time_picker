@@ -102,6 +102,7 @@ export default function LivePreview({ state }: { state: TimePickerState }) {
           enterKeyHint={state.enterKeyHint}
           aria-invalid={invalid || undefined}
           aria-describedby={describedBy}
+          aria-label={state.ariaLabel || undefined}
           className="w-full bg-transparent outline-none"
           style={{ color: state.foreground, fontSize: state.inputSize }}
           onChange={(event) => setValue(event.target.value)}

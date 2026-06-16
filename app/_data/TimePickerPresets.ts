@@ -52,6 +52,7 @@ export const DEFAULT_TIMEPICKER_STATE: TimePickerState = {
   "focusRing": 3,
   "previewState": "default",
   "label": "Meeting time",
+  "ariaLabel": "",
   "description": "Native time field with min, max, step, and accessible helper copy.",
   "helper": "Use 15 minute increments.",
   "errorText": "Choose a time inside office hours.",

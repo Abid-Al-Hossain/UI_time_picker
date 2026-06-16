@@ -59,6 +59,7 @@ export type TimePickerState = {
   focusRing: number;
   previewState: "default" | "hover" | "focus" | "active" | "disabled" | "invalid" | "loading" | "empty" | "filled";
   label: string;
+  ariaLabel: string;
   description: string;
   helper: string;
   errorText: string;

@@ -104,6 +104,7 @@ export default function TimePickerComponent() {
           enterKeyHint={state.enterKeyHint}
           aria-invalid={invalid || undefined}
           aria-describedby={describedBy}
+          aria-label={state.ariaLabel || undefined}
           onChange={(event) => setValue(event.target.value)}
           style={{
             width: "100%",
