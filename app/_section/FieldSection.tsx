@@ -32,6 +32,7 @@ export default function FieldSection({ state, update }: Props) {
 
   return (
     <SectionCard title="Field" subtitle="Native time value, range, seconds granularity, and timezone companion copy.">
+      <div className="space-y-4">
       <Input label={state.showSeconds ? "Value (HH:MM:SS)" : "Value (HH:MM)"} value={state.value} onChange={(value) => update("value", normalizeTimeValue(value, state.showSeconds))} />
       <Input label={state.showSeconds ? "Min (HH:MM:SS)" : "Min (HH:MM)"} value={state.min} onChange={(value) => update("min", normalizeTimeValue(value, state.showSeconds))} />
       <Input label={state.showSeconds ? "Max (HH:MM:SS)" : "Max (HH:MM)"} value={state.max} onChange={(value) => update("max", normalizeTimeValue(value, state.showSeconds))} />
@@ -40,6 +41,7 @@ export default function FieldSection({ state, update }: Props) {
       <Switch label="Timezone companion text" checked={state.showTimezone} onChange={(value) => update("showTimezone", value)} />
       <Input label="Timezone copy" value={state.timezoneLabel} onChange={(value) => update("timezoneLabel", value)} />
       <Switch label="Clear action" checked={state.showClearAction} onChange={(value) => update("showClearAction", value)} />
+    </div>
     </SectionCard>
   );
 }
